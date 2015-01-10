@@ -1,3 +1,30 @@
 html, body {
-  margin: 20px;
+  /*margin: 20px;*/
+  background-color: #E3F2FD;
+}
+
+.menu {
+  background-color: #2196F3;
+  position: fixed;
+  width: 240px;
+  height:100%;
+  top: 0;
+  z-index: 1000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.menu-close {
+  left: -240px;
+}
+
+.menu-open {
+  left: 0px;
+}
+
+.pull-right {
+  float: right;
 }
