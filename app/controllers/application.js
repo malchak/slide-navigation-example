@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-	isOpen: true,
+	isOpen: false,
 
 	actions: {
 		toggleMenu: function () {
