@@ -1,17 +1,29 @@
-<nav {{bind-attr class=":menu isOpen:menu-open:menu-close"}}>
-	<div  {{action "toggleMenu"}} class="menu-header">
-		<span class="menu-header-icon">
-			{{fa-icon "bars" size=2}}
-		</span>
-		<span class="header-title">SLDR</span>
-	</div>
-</nav>
-
 <div class="header">
 	<span {{action "toggleMenu"}} class="header-icon">
 		{{fa-icon "bars" size=2}}
 	</span>
 	<span class="header-title">SLDR</span>
 </div>
+
+
+<nav {{bind-attr class=":menu isOpen:menu-open:menu-close"}}>
+	
+	<div  {{action "toggleMenu"}} class="menu-header">
+		<span class="menu-header-icon">
+			{{fa-icon "bars" size=2}}
+		</span>
+		<span class="header-title">SLDR</span>
+	</div>
+
+	<div>
+		<ul class="menu-list">
+			<li>{{link-to 'LINK ONE' 'one'}}</li>
+			<li>{{link-to 'LINK TWO' 'two'}}</li>
+			<li>{{link-to 'LINK THREE' 'three'}}</li>
+		</ul>
+	</div>
+
+</nav>
+
 
 {{outlet}}

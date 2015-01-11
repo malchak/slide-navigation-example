@@ -1,8 +1,18 @@
 html, body {
   margin: 0;
-  /*background-color: #E3F2FD;*/
+  background-color: #E3F2FD;
   color: #2196F3;
   font-family: 'Arial'
+}
+
+.header {
+  background-color: #E3F2FD;
+  padding: 15px 15px 15px 15px;
+}
+
+.header-title {
+  font-size: 32px;
+  padding-left: 20px;
 }
 
 .menu {
@@ -34,15 +44,25 @@ html, body {
 }
 
 .menu-header-icon {
-  
 }
 
-.header {
-  background-color: #E3F2FD;
-  padding: 15px 15px 15px 15px;
+.menu-list {
+  list-style-type: none;
+  padding: 0;
 }
 
-.header-title {
-  font-size: 32px;
-  padding-left: 20px;
+.menu-list li {
+  height: 50px;
+  padding: 25px 10px 10px 20px;
 }
+
+.menu-list li:hover {
+  background-color: #42A5F5;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #E3F2FD;
+  font-size: 24px;
+}
+
