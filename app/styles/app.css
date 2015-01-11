@@ -72,3 +72,22 @@ html, body {
   font-size: 24px;
 }
 
+.container {
+  margin: 10% 20% 10% 45%;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  color: #E3F2FD;
+  background: #F44336;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.circle p {
+  padding-top: 40px;
+  padding-left: 32px;
+}
+
