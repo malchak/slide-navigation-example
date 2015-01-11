@@ -5,5 +5,8 @@ export default Ember.Route.extend({
 		toggleMenu: function () {
 			this.controller.toggleProperty('isOpen');
 		},
+		closeMenu: function () {
+			this.controller.set('isOpen', false);
+		}
 	}
 });
