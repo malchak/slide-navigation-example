@@ -1,6 +1,9 @@
 # Slide-navigation-example
 
-Using slide-out navigation menu techniques with Ember-cli
+A simple implementation of a slide-out navigation menu with Ember-cli.
+
+Using Ember's [boolean value class name bindings](http://emberjs.com/guides/templates/binding-element-class-names/#toc_binding-to-boolean-values) helper, and the [didTransition](http://emberjs.com/api/classes/Ember.Route.html#event_didTransition) route function, we can easily toggle between menu-open and menu-close states in our application.
+
 
 ## Prerequisites
 
@@ -24,23 +27,6 @@ You will need the following things properly installed on your computer.
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
